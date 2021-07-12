@@ -32,6 +32,9 @@ def train(args):
 
     if args.model_name is None:
         raise Warning('model name is not specified, the model will NOT be saved!')
+    if not os.path.exists("./models"):
+        os.mkdir("./models")
+
     output_model_dir = os.path.join('./models', args.model_name + '_' + now_time)
     if not os.path.exists(output_model_dir):
         os.mkdir(output_model_dir)
