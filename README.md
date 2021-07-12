@@ -15,7 +15,7 @@ This repository contains the source code and dataset for the paper: More than Te
 ## Dataset
 In our paper, we use the data under the `./Data/small_version` directory. The `./Data/extended_version` 
 directory contains the unannotated data which will be used to perform semi-supervised or 
-unsupervised learning in the feature.
+unsupervised learning in the future.
 
 
 
